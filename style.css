@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inconsolata/v20/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp2I7aRo.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_bZF7g4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/spacemono/v6/i7dPIFZifjKcF5UAWdDRUEY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/spacemono/v6/i7dMIFZifjKcF5UAWdDRaPpZYFI.ttf) format('truetype');
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+.container {
+  margin: 0 4.75rem;
+}
+.container .header h1 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.125rem;
+  margin-top: 2.5rem;
+  margin-bottom: 3.5rem;
+}
+.container .main {
+  display: flex;
+  justify-content: space-between;
+}
+.container .main .col.izq {
+  width: 540px;
+}
+.container .main .col.izq img {
+  width: 540px;
+}
+.container .main .col.der {
+  width: 36.625rem;
+}
+.container .main .col.der h2 {
+  font-family: 'Space Mono', monospace;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.9375rem;
+  letter-spacing: -0.035rem;
+  text-align: left;
+  margin-bottom: 36px;
+}
+.container .main .col.der p {
+  width: 380px;
+  font-family: 'Space Mono', monospace;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  margin-bottom: 64px;
+}
+.container .main .col.der a {
+  text-decoration: none;
+  padding: 24px 43px;
+  background: #333333;
+  color: white;
+  font-family: 'Space Mono', monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  text-transform: uppercase;
+  transition: all ease 0.3s;
+}
+.container .main .col.der a:hover {
+  padding: 20px 40px;
+  background: #444444;
+}
+.container .footer p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+}

@@ -109,3 +109,46 @@
   margin-top: 10rem;
   margin-bottom: 2rem;
 }
+@media all and (max-width: 375px) {
+  body {
+    max-width: 375px;
+  }
+  body .container {
+    margin: 20px 24px 0;
+  }
+  body .container .header {
+    width: 100%;
+  }
+  body .container .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  body .container .main .col.izq {
+    width: 100%;
+  }
+  body .container .main .col.izq img {
+    width: 287px;
+    margin: 0 20px;
+  }
+  body .container .main .col.der {
+    width: 100%;
+  }
+  body .container .main .col.der h2 {
+    display: block;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+  }
+  body .container .main .col.der p {
+    width: 100%;
+  }
+  body .container .footer {
+    width: 100%;
+  }
+  body .container .footer p {
+    margin-top: 96px;
+  }
+}
